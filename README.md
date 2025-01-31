@@ -1,2 +1,3 @@
-# most
-mo's suckless terminal
+# most- mo's suckless terminal
+
+sudo apt install fonts-iosevka

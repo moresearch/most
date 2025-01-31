@@ -8,8 +8,11 @@
 //static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 static const char *font = "Iosevka:size=12:antialias=true:autohint=true";
 //static const char *font = "Iosevka Regular:size=12:antialias=true:autohint=true";
-
-static int borderpx = 20;
+//
+/* Padding */
+static const int padding = 0; // Set padding to 0 to remove it
+static int borderpx = 0;
+static const int lineheight = 1; // Adjust line height if needed
 
 /*
  * What program is execed by st depends of these precedence rules:

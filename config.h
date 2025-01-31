@@ -9,7 +9,7 @@
 static const char *font = "Iosevka:size=12:antialias=true:autohint=true";
 //static const char *font = "Iosevka Regular:size=12:antialias=true:autohint=true";
 
-static int borderpx = 2;
+static int borderpx = 20;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -74,7 +74,7 @@ static unsigned int cursorthickness = 2;
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
  * it
  */
-static int bellvolume = 0;
+static int bellvolume = 100;
 
 /* default TERM value */
 char *termname = "st-256color";

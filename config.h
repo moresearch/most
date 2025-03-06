@@ -6,7 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 //static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
-static const char *font = "Iosevka:size=16:antialias=true:autohint=true";
+//static const char *font = "Iosevka:size=16:antialias=true:autohint=true";
+static const char *font = "Iosevka:size=12:antialias=true:autohint=true";
 //static const char *font = "Iosevka Regular:size=12:antialias=true:autohint=true";
 //
 /* Padding */

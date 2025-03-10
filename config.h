@@ -7,7 +7,12 @@
  */
 //static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 //static const char *font = "Iosevka:size=16:antialias=true:autohint=true";
-static const char *font = "Iosevka:size=12:antialias=true:autohint=true";
+//static const char *font = "Iosevka:size=12:antialias=true:autohint=true";
+//static const char *font = "Iosevka:size=18:antialias=true:autohint=true";
+//static const char *font = "Fira Code Retina:pixelsize=18:antialias=true:autohint=true";
+//static const char *font = "IBM 3270 Condensed:pixelsize=22:antialias=true:autohint=true";
+//static const char *font = "Terminus:pixelsize=22:antialias=true:autohint=true";
+static const char *font = "Terminus:pixelsize=18:antialias=true:autohint=true";
 //static const char *font = "Iosevka Regular:size=12:antialias=true:autohint=true";
 //
 /* Padding */

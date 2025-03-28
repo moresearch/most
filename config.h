@@ -12,7 +12,7 @@
 //static const char *font = "Fira Code Retina:pixelsize=18:antialias=true:autohint=true";
 //static const char *font = "IBM 3270 Condensed:pixelsize=22:antialias=true:autohint=true";
 //static const char *font = "Terminus:pixelsize=12:antialias=true:autohint=true";
-static const char *font = "Terminus:pixelsize=16:antialias=true:autohint=true";
+static const char *font = "Terminus:pixelsize=28:antialias=true:autohint=true";
 //static const char *font = "Terminus Bold:pixelsize=12:antialias=true:autohint=true";
 //static const char *font = "Terminus:pixelsize=22:antialias=true:autohint=true";
 //static const char *font = "Terminus:pixelsize=24:antialias=true:autohint=true";
@@ -21,7 +21,7 @@ static const char *font = "Terminus:pixelsize=16:antialias=true:autohint=true";
 /* Padding */
 static const int padding = 0; // Set padding to 0 to remove it
 static int borderpx = 0;
-static const int lineheight = 1; // Adjust line height if needed
+static const int lineheight = 0; // Adjust line height if needed
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -75,7 +75,8 @@ static double maxlatency = 33;
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
  * attribute.
  */
-static unsigned int blinktimeout = 800;
+//static unsigned int blinktimeout = 800;
+static unsigned int blinktimeout = 0;
 
 /*
  * thickness of underline and bar cursors

@@ -24,7 +24,7 @@ static const char *font = "Terminus:pixelsize=26:antialias=true:autohint=true";
 //
 /* Padding */
 static const int padding = 10; // Set padding to 0 to remove it
-static int borderpx = 30; // Size of window border
+static int borderpx = 60; // Size of window border
 static const int lineheight = 100; // Adjust line height if needed
 
 /*

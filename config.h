@@ -12,7 +12,8 @@
 //static const char *font = "Fira Code Retina:pixelsize=18:antialias=true:autohint=true";
 //static const char *font = "IBM 3270 Condensed:pixelsize=22:antialias=true:autohint=true";
 //static const char *font = "Terminus:pixelsize=12:antialias=true:autohint=true";
-static const char *font = "Terminus:pixelsize=28:antialias=true:autohint=true";
+//static const char *font = "Terminus:pixelsize=30:antialias=true:autohint=true";
+static const char *font = "Terminus:pixelsize=22";
 //static const char *font = "Terminus:pixelsize=26";
 //static const char *font = "Terminus:pixelsize=18";
 //static const char *font = "Terminus:pixelsize=28:antialias=true:autohint=true";
@@ -23,9 +24,9 @@ static const char *font = "Terminus:pixelsize=28:antialias=true:autohint=true";
 //static const char *font = "Iosevka Regular:size=12:antialias=true:autohint=true";
 //
 /* Padding */
-static const int padding = 10; // Set padding to 0 to remove it
-static int borderpx = 60; // Size of window border
-static const int lineheight = 100; // Adjust line height if needed
+static const int padding = 0; // Set padding to 0 to remove it
+static int borderpx = 80; // Size of window border
+static const int lineheight = 0; // Adjust line height if needed
 
 /*
  * What program is execed by st depends of these precedence rules:

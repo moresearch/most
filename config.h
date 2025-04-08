@@ -25,7 +25,7 @@ static const char *font = "Terminus:pixelsize=22";
 //
 /* Padding */
 static const int padding = 0; // Set padding to 0 to remove it
-static int borderpx = 80; // Size of window border
+static int borderpx = 10; // Size of window border
 static const int lineheight = 0; // Adjust line height if needed
 
 /*

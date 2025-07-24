@@ -9,11 +9,52 @@
 //static const char *font = "Iosevka:size=16:antialias=true:autohint=true";
 //static const char *font = "Iosevka:size=12:antialias=true:autohint=true";
 //static const char *font = "Iosevka:size=18:antialias=true:autohint=true";
-//static const char *font = "Fira Code Retina:pixelsize=18:antialias=true:autohint=true";
+//
+//static const char *font = "Fira Code Retina:pixelsize=14:antialias=true:autohint=true";
+//static const char *font = "Bitstream Vera Sans Mono:pixelsize=16:antialias=true:autohint=true";
+
+static const char *font = "Bitstream Vera Sans Mono:pixelsize=18:antialias=true:autohint=true";
+
+//static char *font = "MiraCode:pixelsize=14:antialias=true:autohint=true";
+//static char *font = "Anta:pixelsize=16:antialias=true:autohint=true";
+
+
+
+//static char *font = "Orbitron:pixelsize=18:antialias=true:autohint=true";
+
+
+//static char *font = "Bedstead Bold Extra Condensed:pixelsize=14:antialias=true:autohint=true";
+//static char *font = "Bedstead:pixelsize=18:antialias=true:autohint=true";
+
+
+
 //static const char *font = "IBM 3270 Condensed:pixelsize=22:antialias=true:autohint=true";
+//static const char *font = "IBM 3270 Condensed:pixelsize=24:antialias=true:autohint=true";
+
+//static char *font = "Departure Mono:pixelsize=16:antialias=true:autohint=true";
+
 //static const char *font = "Terminus:pixelsize=12:antialias=true:autohint=true";
 //static const char *font = "Terminus:pixelsize=30:antialias=true:autohint=true";
-static const char *font = "Terminus:pixelsize=22";
+//static const char *font = "Terminus:pixelsize=22";
+//static const char *font = "Terminus:pixelsize=22:antialias=true:autohint=true";
+//static char *font = "Typestar OCR Regular:pixelsize=12:antialias=true:autohint=true";
+//static char *font = "Typestar OCR Regular:pixelsize=18";
+//static char *font = "IBM Plex Mono Medium:pixelsize=18";
+//static char *font = "IBM Plex Mono:pixelsize=18:antialias=true:autohint=true";
+//static char *font = "Departure Mono:pixelsize=16:antialias=true:autohint=true";
+//static char *font = "OCR-A:pixelsize=16";
+//static char *font = "OCR A:pixelsize=16:antialias=false:autohint=true";
+//static char *font = "OCR A:pixelsize=18:antialias=true:autohint=true";
+
+//static char *font = "OCRA:pixelsize=14:antialias=false:autohint=true";
+//static char *font = "OCRA:pixelsize=14:antialias=true:autohint=false";
+
+//static char *font = "OCRABold:pixelsize=14:antialias=true:autohint=true";
+//static char *font = "OCRACondensed:pixelsize=18:antialias=true:autohint=true";
+
+//static char *font = "Departure Mono:pixelsize=18:antialias=true:autohint=true";
+
+
 //static const char *font = "Terminus:pixelsize=26";
 //static const char *font = "Terminus:pixelsize=18";
 //static const char *font = "Terminus:pixelsize=28:antialias=true:autohint=true";
@@ -24,8 +65,9 @@ static const char *font = "Terminus:pixelsize=22";
 //static const char *font = "Iosevka Regular:size=12:antialias=true:autohint=true";
 //
 /* Padding */
+// Controls the space between the text and the window border (top, bottom, left, right).
 static const int padding = 0; // Set padding to 0 to remove it
-static int borderpx = 10; // Size of window border
+static int borderpx = 40; // Size of window border
 static const int lineheight = 0; // Adjust line height if needed
 
 /*
@@ -46,8 +88,12 @@ char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
-static float cwscale = 1.0;
-static float chscale = 1.0;
+//static float cwscale = 0.8;
+static float cwscale = 0.8;
+//static float cwscale = 1;
+
+static float chscale = 1;
+//static float chscale = 2;
 
 /*
  * word delimiter string

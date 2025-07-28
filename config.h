@@ -5,34 +5,42 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
+
+static char *font = "Terminus:size=16:antialias=true:autohint=true";
+//static char *font = "JetBrains Mono:size=13:style=Medium:antialias=true:autohint=true";
+
 //static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 //static const char *font = "Iosevka:size=16:antialias=true:autohint=true";
 //static const char *font = "Iosevka:size=12:antialias=true:autohint=true";
 //static const char *font = "Iosevka:size=18:antialias=true:autohint=true";
-//
 //static const char *font = "Fira Code Retina:pixelsize=14:antialias=true:autohint=true";
 //static const char *font = "Bitstream Vera Sans Mono:pixelsize=16:antialias=true:autohint=true";
-
-static const char *font = "Bitstream Vera Sans Mono:pixelsize=18:antialias=true:autohint=true";
-
+//static const char *font = "Bitstream Vera Sans Mono:pixelsize=18:antialias=true:autohint=true";
+//static char *font = "JetBrains Mono:pixelsize=18:antialias=true:autohint=true";
+//static char *font = "IBM Plex Mono:style=Medium:size=13:antialias=true:autohint=true";
+//static char *font = "Cozette:size=13";
+//static char *font = "Iosevka Fixed Slab:style=Regular:size=13";
+//static char *font = "Iosevka Fixed Slab:style=Regular:size=13";
+//static char *font = "Perfect DOS VGA 437:size=16";
+//static char *font = "Iosevka Fixed Slab:style=Regular:zero_style=slash:size=13";
+//static char *font = "Eightgon Regular:size=13";
+//static char *font = "Eightgon:style=Regular:size=16";
+//static char *font = "Linerama:style=Regular:size=16";
+//static char *font = "Linerama:style=Bold:size=16";
+//static char *font = "PixCon:style=Regular:size=13";
+//static char *font = "v-insider deinterlaced:style=Regular:size=13";
+//static char *font = "v-insider:style=Regular:size=16";
+//static char *font = "VT323:style=Regular:size=18";
+//static char *font = "Noto Sans:size=12:antialias=true:autohint=true";
+//static char *font = "Noto Sans Mono:style=Regular:size=12";
 //static char *font = "MiraCode:pixelsize=14:antialias=true:autohint=true";
 //static char *font = "Anta:pixelsize=16:antialias=true:autohint=true";
-
-
-
 //static char *font = "Orbitron:pixelsize=18:antialias=true:autohint=true";
-
-
 //static char *font = "Bedstead Bold Extra Condensed:pixelsize=14:antialias=true:autohint=true";
 //static char *font = "Bedstead:pixelsize=18:antialias=true:autohint=true";
-
-
-
 //static const char *font = "IBM 3270 Condensed:pixelsize=22:antialias=true:autohint=true";
 //static const char *font = "IBM 3270 Condensed:pixelsize=24:antialias=true:autohint=true";
-
 //static char *font = "Departure Mono:pixelsize=16:antialias=true:autohint=true";
-
 //static const char *font = "Terminus:pixelsize=12:antialias=true:autohint=true";
 //static const char *font = "Terminus:pixelsize=30:antialias=true:autohint=true";
 //static const char *font = "Terminus:pixelsize=22";
@@ -45,16 +53,11 @@ static const char *font = "Bitstream Vera Sans Mono:pixelsize=18:antialias=true:
 //static char *font = "OCR-A:pixelsize=16";
 //static char *font = "OCR A:pixelsize=16:antialias=false:autohint=true";
 //static char *font = "OCR A:pixelsize=18:antialias=true:autohint=true";
-
 //static char *font = "OCRA:pixelsize=14:antialias=false:autohint=true";
 //static char *font = "OCRA:pixelsize=14:antialias=true:autohint=false";
-
 //static char *font = "OCRABold:pixelsize=14:antialias=true:autohint=true";
 //static char *font = "OCRACondensed:pixelsize=18:antialias=true:autohint=true";
-
 //static char *font = "Departure Mono:pixelsize=18:antialias=true:autohint=true";
-
-
 //static const char *font = "Terminus:pixelsize=26";
 //static const char *font = "Terminus:pixelsize=18";
 //static const char *font = "Terminus:pixelsize=28:antialias=true:autohint=true";
@@ -89,7 +92,7 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 //static float cwscale = 0.8;
-static float cwscale = 0.8;
+static float cwscale = 1;
 //static float cwscale = 1;
 
 static float chscale = 1;

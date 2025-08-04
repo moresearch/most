@@ -6,7 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-static char *font = "Terminus:size=16:antialias=true:autohint=true";
+static char *font = "Terminus:size=18:antialias=true:autohint=true";
+//static char *font = "Noto Sans Mono:pixelsize=16:antialias=true:autohint=true";
 //static char *font = "JetBrains Mono:size=13:style=Medium:antialias=true:autohint=true";
 
 //static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
